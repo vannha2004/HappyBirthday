@@ -1,19 +1,16 @@
-// 霸都丶傲天 2019年10月10日 https://github.com/AJLoveChina/birthday
 var config = {
-    // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
-    // 每句话尽量不要超过15个字,不然展示效果可能不太好
     texts: [
-        "送给我",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "心爱的小可爱",  // 同上...
-        "今天是你的生日",
-        "这是我们在一起的",
-        "第三个生日了哦",
-        "去年的生日",
-        "还记得在王婆串串吃的呢",
-        "今年要吃好的喽哦",
-        "要把我家可爱猪猪喂饱饱",
-        "然后抱走",
-        "YAMI~~",
+        "Hà Nội 11.11.2025",      
+        "Mỹ Hào, Hưng Yên 11.11.2005",  
+        "Em yêu à... 💕Hôm nay là ngày đặc biệt của em đó 🎂",
+        "Anh muốn nói điều này từ lâu rồi... 🥺",
+        "Chúc em luôn xinh đẹp như bây giờ 🌸",
+        "Và luôn mỉm cười thật tươi nhé 😊",
+        "Anh đã nhìn thấy 11:11 không biết bao nhiêu lần rồi",
+        "Thậc may mắn khi có em bên cạnh 🌈",
+        "Chúc mừng sinh nhật người con gái anh thương nhất 🎉",
+        "Yêu em nhèo lắm 💞",
+        "BichNgoc~~",
     ],
     /**
      * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
@@ -25,18 +22,18 @@ var config = {
      * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
      */
     imgs: {
-        "心爱的小可爱": "./imgs/xiaokeai.png",
+        "心爱的小可爱": "./imgs/xiaokeai2.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
-        turn_on: "开始",
-        play: "音乐",
-        bannar_coming: "颜色",
-        balloons_flying: "好像少点东西",
-        cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
-        wish_message: "生日快乐",
-        story: "A MESSAGE FOR YOU",
+        turn_on: "Bắt đầu nào em",
+        play: "Âm nhạc sẽ dẫn em vào không khí hôm nay",
+        bannar_coming: "Thêm một chút màu sắc cho ngày tươi đẹp này",
+        balloons_flying: "Bong bóng lên trời",
+        cake_fadein: "Chúc mừng sinh nhật em yêu♥",
+        light_candle: "Em à, nếu em đến lúc bốn giờ chiều",
+        wish_message: "thì từ ba giờ a đã bắt đầu cảm thấy hạnh phúc rồi",
+        story: "Càng đến gần giờ, anh càng thấy vui. Bốn giờ anh cuống lên, a lo lắng, và a hiểu ra cái giá của hạnh phúc",
     }
 };
